@@ -95,7 +95,7 @@ function App() {
             </VStack>
           </Container>
         ): <VStack justifyContent={"center"} h={"100vh"} bg={"white"}>
-          <Button onClick={loginHandler} colorScheme={"green"}>Sign-in with Google</Button>
+          <Button onClick={loginHandler} colorScheme={"blue"}>Sign-in with Google</Button>
         </VStack>
       }
     </Box>
