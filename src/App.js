@@ -49,7 +49,7 @@ function App() {
   useEffect(() => {
     const q = query(collection(db, "Messages"), orderBy("createdAt", "asc"))
 
-    const unsubscribe = onAuthStateChanged(auth, () =>(data) =>{
+    const unsubscribe = onAuthStateChanged(auth, (data) =>{
       setUser(data)
     })
 
